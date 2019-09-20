@@ -13,15 +13,49 @@ body{
 h1{
   font-size: 45px;
   font-weight: 700;
-  margin-top: 65px;
+  margin-top: 62px;
 }
 h1+p{
-  font-size: 25px;
-  color: grey;
-  line-height: 25px;
+  font-size: 23px;
+  color: #A9A9A9;
+  line-height: 33px;
+  margin-top: 4px;
 }
 
+p+p{
+  font-size: 23px;
+  line-height: 33px;
+  color: black;
+  margin-top: 28px;
+
+}
+h2+p{
+  margin-top: 10px;
+}
+h2{
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 50px;
+
+}
+h3{
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+blockquote{
+  font-size: 23px;
+  font-style: italic;
+}
+li{
+  font-size: 23px;
+  margin-top: 18px;
+
+}
+h2+p{
+  margin-top: 24px;
+
+}
 p{
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 23px;
 }
