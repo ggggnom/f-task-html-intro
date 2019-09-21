@@ -18,19 +18,16 @@ h1{
 h1+p{
   font-size: 23px;
   color: #A9A9A9;
-  line-height: 33px;
+  line-height: 32px;
   margin-top: 4px;
 }
 
-p+p{
+.undertext{
   font-size: 23px;
-  line-height: 33px;
+  line-height: 35px;
   color: black;
-  margin-top: 28px;
+  margin-top: 27px;
 
-}
-h2+p{
-  margin-top: 10px;
 }
 h2{
   font-size: 36px;
@@ -38,24 +35,72 @@ h2{
   margin-top: 50px;
 
 }
+.underheading{
+  margin-top: 10px;
+  line-height: 34px;
+  font-size: 23px;
+}
 h3{
   font-size: 28px;
   font-weight: bold;
   margin-top: 40px;
 }
-blockquote{
+h4{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 35px;
+}
+
+.verticalLine{
+  border-left: 3px solid #000;
+  margin-left: -11px;
+  padding-left: 10px;
   font-size: 23px;
   font-style: italic;
+  line-height: 34px;
+}
+.underblock{
+  margin-top: 42px;
+  margin-bottom: 27px;
+  font-size: 23px;
+  line-height: 34px;
+}
+.upblock{
+  margin-bottom: 42px;
+  font-size: 23px;
+  margin-top: 27px;
+  line-height: 34px;
+}
+#surblock{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 23px;
+  line-height: 34px;
+}
+#upblockunderhead{
+  margin-bottom: 30px;
+  margin-top: 10px;
+  font-size: 23px;
+  line-height: 34px;
+}
+#spisok{
+  list-style-type: disc;
+  font-size: 23px;
+  line-height: 34px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 28px;
+}
+#h4{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+#h4second{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 60px;
 }
 li{
-  font-size: 23px;
-  margin-top: 18px;
-
-}
-h2+p{
-  margin-top: 24px;
-
-}
-p{
-  font-size: 23px;
+  margin-bottom: 25px;
 }
